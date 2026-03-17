@@ -6,13 +6,13 @@
 
 buildGoModule rec {
   pname = "nostr-dump-cli";
-  version = "unstable-2026-03-02";
+  version = "unstable-2026-03-17";
 
   src = fetchFromGitHub {
     owner = "bot-uichan";
     repo = "nostr-dump-cli";
-    rev = "adb2bfa6127d297c2ed6ee1d389acf599f375773";
-    hash = "sha256-K/5z8lv3F9Ms5nBpu5unZUx9FbfLtw5ZCzIAD/EeyNo=";
+    rev = "cf0f23c999beee004545132eb14cd0e430625ef3";
+    hash = "sha256-HBTAO0Vt99fetIJ7fEiaDLaYyhJ9h3kpHKLJYAA2bm0=";
   };
 
   vendorHash = "sha256-/Et/G1QcXxFckjtMmGDlqYqHHPIdQg+6Bz0bZETA5oA=";
